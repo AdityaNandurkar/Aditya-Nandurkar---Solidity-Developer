@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "retrive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AirdropSmartContract.sol": "Token"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AirdropSmartContract.sol": {
+			"keccak256": "0xa17bebcc06c85889f2a11e19d6baabe6190345feddd3ea59c38e6a63608e405f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://193105d958bdef66cef2b81c5edb47abd3dce71e4a9c480725346f7a8e6ffff7",
+				"dweb:/ipfs/QmVLvHw1bqjQdDr1CttBMLx1CKAFKVDgjjaQqbgCfbyV7e"
+			]
+		}
+	},
+	"version": 1
+}
