@@ -1,0 +1,52 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  font-size: larger;
+}
+.ConnectWallet {
+  background-color: #47a1ff;
+  color: white;
+  width: 180px;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+p {
+  font-weight: lighter;
+  color: red;
+}
+
+input {
+  background-color: white;
+  color: black;
+  height: 45px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+input::content{
+  border-color: chartreuse;
+}
+
+.Transfer {
+  width: 150px;
+  height: 45px;
+  margin-left: 35px;
+  border:3px solid rgb(14 116 144);;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+  background: transparent;
+  color: white;
+}
